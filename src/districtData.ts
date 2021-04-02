@@ -1,6 +1,7 @@
 import { LatLngExpression } from 'leaflet';
+import { District } from './data';
 
-export const districts = [
+export const districts: District[] = [
   '中正區',
   '大同區',
   '中山區',
@@ -15,7 +16,7 @@ export const districts = [
   '文山區',
 ];
 
-export const districtLatLngMap = new Map<string, LatLngExpression>([
+export const districtLatLngMap = new Map<District, LatLngExpression>([
   ['中正區', [25.0361013, 121.5169923]],
   ['大同區', [25.0630815, 121.5142474]],
   ['中山區', [25.0685018, 121.5280918]],

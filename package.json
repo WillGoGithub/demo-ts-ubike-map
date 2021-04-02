@@ -13,12 +13,17 @@
   },
   "devDependencies": {
     "@types/leaflet": "^1.7.0",
-    "leaflet": "^1.7.1"
+    "css-loader": "^5.2.0",
+    "leaflet": "^1.7.1",
+    "mini-css-extract-plugin": "^1.4.0",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^11.0.1"
   },
   "scripts": {
     "start": "concurrently npm:start:*",
     "start:watch": "webpack -w",
-    "start:serve": "lite-server"
+    "start:serve": "lite-server",
+    "build": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",

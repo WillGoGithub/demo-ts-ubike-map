@@ -9,11 +9,18 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css"
     />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="../dist/css/main.min.css" />
   </head>
   <body>
     <div class="map-wrapper">
       <div id="map"></div>
+
+      <div class="input-wrapper">
+        <label for="select-district" id="lbl-district"> 選擇行政區 </label>
+        <select name="district" id="select-district">
+          <!-- Options from ts -->
+        </select>
+      </div>
     </div>
 
     <script src="../dist/bundle.js"></script>

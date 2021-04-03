@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UBike Map Example</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css"
+    />
+    <link rel="stylesheet" href="../dist/css/main.min.css" />
+    <link rel="icon" href="favicon.png" sizes="16x16" type="image/png" />
+  </head>
+  <body>
+    <div class="map-wrapper">
+      <div id="map"></div>
+
+      <div class="input-wrapper">
+        <label for="select-district" id="lbl-district"> 選擇行政區 </label>
+        <select name="district" id="select-district">
+          <!-- Options from ts -->
+        </select>
+      </div>
+    </div>
+
+    <script src="../dist/bundle.js"></script>
+  </body>
+</html>

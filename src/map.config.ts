@@ -1,6 +1,6 @@
 import { LatLngExpression } from 'leaflet';
 
-type MapConfig = {
+export type MapConfig = {
   latLng: LatLngExpression;
   zoomLevel: number;
   tileLayerURL: string;

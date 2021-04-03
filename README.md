@@ -16,6 +16,6 @@ $ npm install lite-server concurrently -D
 
 $ npm install leaflet @types/leaflet -D
 
-$ npm install sass-loader node-sass -D
+$ npm install sass-loader node-sass css-loader -D
 
-$ npm install css-loader mini-css-extract-plugin -D
+$ npm install mini-css-extract-plugin copy-webpack-plugin -D
